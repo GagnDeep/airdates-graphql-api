@@ -1,7 +1,7 @@
 defmodule AirdatesApi.Client do
   use Tesla
 
-  plug(Tesla.Middleware.BaseUrl, "http://www.airdates.tv")
+  plug(Tesla.Middleware.BaseUrl, "https://www.airdates.tv")
   plug(Tesla.Middleware.Compression, format: "gzip")
 
   @doc """

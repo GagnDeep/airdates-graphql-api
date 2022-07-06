@@ -42,5 +42,6 @@ defmodule AirdatesApi.Parser do
         nil
     end)
     |> Enum.filter(& &1)
+
   end
 end
